@@ -1,4 +1,11 @@
 site_name: El web de lluís alandete
+
+plugins:
+  - search
+
+nav:
+  - Inici: index.md
+
 theme:
   name: material
   font:

@@ -11,19 +11,65 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for proper builds
+          
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
+          
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+            
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Verify configurations
+        run: |
+          echo "Checking main mkdocs.yml..."
+          mkdocs build --dry-run
+          echo "Checking DIW mkdocs.yml..."
+          cd docs/DIW && mkdocs build --dry-run && cd ../../
+          
+      - name: Build all MkDocs projects
+        run: |
+          chmod +x build.sh
+          ./build.sh
+          
+      - name: Verify build output
+        run: |
+          echo "Checking built files..."
+          ls -la site/
+          echo "Checking DIW subproject..."
+          ls -la site/DIW/
+          
+      - name: Deploy to GitHub Pages
+        run: |
+          git fetch origin gh-pages --depth=1 || true
+          git checkout gh-pages || git checkout --orphan gh-pages
+          
+          # Clean previous content but keep .git
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          
+          # Copy built site content
+          cp -r site/* .
+          
+          # Add all files and commit
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to deploy"
+          else
+            git commit -m "Deploy docs from ${GITHUB_SHA}"
+            git push origin gh-pages
+          fi
