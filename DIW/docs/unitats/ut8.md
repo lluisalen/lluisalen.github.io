@@ -147,4 +147,4 @@ Aquestes adaptacions podran incloure:
 Les adaptacions es concretaran de manera individual, tenint en compte els informes psicopedagògics i en coordinació amb el departament d’orientació.
 
 
-[Descarregar PDF](/assets/ut8.pdf)
+[Descarregar PDF](ut8.pdf)
