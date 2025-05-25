@@ -1,4 +1,4 @@
-# UP8. Projecte integrat - Portafolis Web amb Astro, HTML, CSS i TailwindCSS
+# UT8. Projecte integrat - Portafolis Web amb Astro, HTML, CSS i TailwindCSS
 
 ## Descripció
 
@@ -12,6 +12,7 @@ Aquesta unitat consolida tots els coneixements adquirits al llarg del curs, perm
 
 * **Cicle Formatiu**: Desenvolupament d'Aplicacions Web
 * **Curs**: 2n de DAW
+* **Grup**: A
 * **Mòdul**: Disseny d'Interfícies Web (DIW)
 * **Càrrega horària**: 36 hores (12 sessions de 3h)
 * **Temporalització**: 2n trimestre (6 setmanes, 6h/setmana)
@@ -28,7 +29,47 @@ Aquesta unitat consolida tots els coneixements adquirits al llarg del curs, perm
 | RA5. Accessibilitat            | 10%         | 3, 4, 5, 7, 8, 9, 10 |
 | RA6. Usabilitat                | 10%         | 2, 3, 6, 7, 8, 9, 10 |
 
-Criteris d'avaluació complets disponibles al document original. Inclouen verificació de l'estil, estructura semàntica, adequació visual, validesa d'accessibilitat, entre altres.
+## Criteris d’avaluació
+
+**RA1**
+
+* Reconeixement de la importància de la comunicació visual.
+* Selecció adequada de colors i tipografies per a pantalla.
+* Aplicació de guies d’estil en desenvolupament web.
+* Creació i ús de plantilles de disseny.
+
+**RA2**
+
+* Modificació correcta d’etiquetes HTML.
+* Definició i aplicació d’estils globals en fulls externs.
+* Creació de fulls d’estil alternatius.
+* Ús i manteniment de la guia d’estil.
+
+**RA3**
+
+* Identificació de drets d’autor en material multimèdia.
+* Selecció de formats adequats d’imatge, àudio i vídeo.
+* Ús d’eines per generar contingut multimèdia.
+* Importació/exportació de contingut multimèdia.
+
+**RA4**
+
+* Anàlisi de tecnologies per contingut multimèdia i interactiu.
+* Integració d’elements multimèdia en documents web.
+* Aplicació d’interactivitat als elements del web.
+
+**RA5**
+
+* Identificació de pautes d’accessibilitat (WCAG).
+* Verificació del nivell de conformitat.
+* Visualització amb diferents navegadors i tecnologies.
+
+**RA6**
+
+* Ús d’estàndards en la creació de documents web.
+* Adequació de la interfície als objectius i usuaris.
+* Verificació de la navegació amb diferents dispositius.
+* Validació de la usabilitat amb eines com Lighthouse.
 
 ## Competències
 
@@ -105,15 +146,5 @@ Aquestes adaptacions podran incloure:
 
 Les adaptacions es concretaran de manera individual, tenint en compte els informes psicopedagògics i en coordinació amb el departament d’orientació.
 
-## 📄 Descarrega la unitat en PDF
 
-<details>
-<summary>📥 Descarrega la unitat completa en PDF</summary>
-
-<a href="assets/up8.pdf" download>
-  <button class="md-button md-button--primary">
-    📄 Descarregar PDF
-  </button>
-</a>
-
-</details>
+[Descarregar PDF](/assets/ut8.pdf)
