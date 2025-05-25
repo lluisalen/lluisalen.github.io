@@ -1,9 +1,10 @@
 name: ci
+
 on:
   push:
     branches:
-      - master
       - main
+      - master
 
 permissions:
   contents: write
@@ -11,6 +12,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,23 +20,41 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Instal·la dependències
         run: pip install mkdocs-material
 
-      - name: Build all subprojects
-        run: |
-          chmod +x build.sh
-          ./build.sh
+      - name: Executa build.sh
+        run: ./build.sh
 
-      - name: Deploy to GitHub Pages
+      - name: Prepara git per desplegar
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git reset --hard
+
+      - name: Canvia a la branca gh-pages
         run: |
           git fetch origin gh-pages --depth=1 || true
           git checkout gh-pages || git checkout --orphan gh-pages
+
+      - name: Esborra contingut antic (excepte .git)
+        run: |
           find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
-          cp -r site/* .
+
+      - name: Copia els fitxers generats
+        run: |
+          if [ -d site ]; then
+            cp -r site/* .
+          else
+            echo "❌ ERROR: La carpeta site/ no existeix"
+            exit 1
+          fi
+
+      - name: Puja a GitHub Pages
+        run: |
           git add .
           if git diff --staged --quiet; then
-            echo "No changes to deploy"
+            echo "No hi ha canvis a desplegar"
           else
             git commit -m "Deploy docs from ${GITHUB_SHA}"
             git push origin gh-pages
