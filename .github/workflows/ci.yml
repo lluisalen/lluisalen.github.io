@@ -24,7 +24,10 @@ jobs:
         run: pip install mkdocs-material
 
       - name: Executa build.sh
-        run: ./build.sh
+        run: |
+          ./build.sh
+          echo "Verificant site/DIW..."
+          ls -la site/DIW || (echo "❌ Error: site/DIW no s'ha creat" && exit 1)
 
       - name: Prepara git per desplegar
         run: |
