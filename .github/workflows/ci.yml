@@ -21,7 +21,12 @@ jobs:
           python-version: '3.x'
 
       - name: Instal·la dependències
-        run: pip install mkdocs-material
+        run: |
+          pip install mkdocs-material
+          pip install pymdown-extensions
+
+      - name: Dona permisos d'execució al script
+        run: chmod +x build.sh
 
       - name: Executa build.sh
         run: |
