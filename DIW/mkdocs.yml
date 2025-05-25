@@ -2,8 +2,8 @@ site_name: Disseny d'Interfícies Web
 
 nav:
   - Inici: index.md
-  - Unitats de Programació:
-    - unitats/up8.md
+  - Unitats de Treball:
+    - unitats/ut8.md
 
 theme:
   name: material
