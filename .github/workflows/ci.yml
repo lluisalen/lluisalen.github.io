@@ -34,6 +34,12 @@ jobs:
           echo "Verificant site/DIW..."
           ls -la site/DIW || (echo "❌ Error: site/DIW no s'ha creat" && exit 1)
 
+      - name: Guarda els fitxers generats temporalment
+        run: |
+          cp -r site /tmp/site_backup
+          echo "✅ Fitxers guardats a /tmp/site_backup"
+          ls -la /tmp/site_backup/
+
       - name: Prepara git per desplegar
         run: |
           git config user.name github-actions[bot]
@@ -51,8 +57,10 @@ jobs:
 
       - name: Copia els fitxers generats
         run: |
-          if [ -d site ]; then
-            cp -r site/* .
+          if [ -d /tmp/site_backup ]; then
+            cp -r /tmp/site_backup/* .
+            echo "✅ Fitxers copiats correctament"
+            ls -la
           else
             echo "❌ ERROR: La carpeta site/ no existeix"
             exit 1
