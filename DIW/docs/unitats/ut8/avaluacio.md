@@ -11,25 +11,25 @@ L'avaluació es realitza sobre el **projecte final complet** on es valoren **tot
 ### 1. 📊 **Tasques de Sessió** (40%)
 **Avaluació contínua amb rúbrica específica**
 - Aplicació: Totes les sessions (1-12)
-- Instrument: [`rubrica tasques.pdf`](assets/rubrica%20tasques.pdf)
+- Instrument: [`rubrica-tasques.pdf`](avaluació/rubrica-tasques.pdf)
 - **RA avaluats**: RA1, RA2, RA3, RA4, RA5, RA6 (integrats en cada sessió)
 
 ### 2. 🤝 **Activitat Col·laborativa** (20%)
 **Treball col·laboratiu específic**
 - Aplicació: Sessions 9 i 10
-- Instrument: [`rubrica activitat colaborativa.pdf`](assets/rubrica%20activitat%20colaborativa.pdf)
+- Instrument: [`rubrica-activitat-colaborativa.pdf`](avaluació/rubrica-activitat-colaborativa.pdf)
 - **RA avaluats**: RA1, RA2, RA3, RA4, RA5, RA6 (treball en equip)
 
 ### 3. 🎤 **Presentació Final** (20%)
 **Defensa del projecte integrat**
 - Aplicació: Sessió final
-- Instrument: [`rubrica presentacio.pdf`](assets/rubrica%20presentacio.pdf)
+- Instrument: [`rubrica-presentacio.pdf`](avaluació/rubrica-presentacio.pdf)
 - **RA avaluats**: RA1, RA2, RA3, RA4, RA5, RA6 (comunicació i síntesi)
 
 ### 4. 💻 **Projecte Final** (20%)
 **Producte final integrat**
 - Aplicació: Lliurament final
-- Instrument: Avaluació holística dels 6 RA
+- Instrument: [`rubrica-projecte](avaluació/rubrica-projecte.pdf) dels 6 RA
 - **RA avaluats**: RA1, RA2, RA3, RA4, RA5, RA6 (integració completa)
 
 ---
@@ -90,18 +90,18 @@ L'avaluació es realitza sobre el **projecte final complet** on es valoren **tot
 
 ### Avaluació Contínua (Sessions 1-12)
 Cada sessió contribueix a l'avaluació final mitjançant:
-- **Tasques específiques** avaluades amb [`rubrica tasques.pdf`](assets/rubrica%20tasques.pdf)
+- **Tasques específiques** avaluades amb [`rubrica-tasques.pdf`](avaluació/rubrica-tasques.pdf)
 - **Progressió en els 6 RA** de forma simultània
 - **Feedback formatiu** per a la millora contínua
 
 ### Avaluació Col·laborativa (Sessions 9-10)
-- **Treball en equip** avaluat amb [`rubrica activitat colaborativa.pdf`](assets/rubrica%20activitat%20colaborativa.pdf)
+- **Treball en equip** avaluat amb [`rubrica-activitat-colaborativa.pdf`](avaluació/rubrica-activitat-colaborativa.pdf)
 - **Integració dels RA** en context col·laboratiu
 - **Competències transversals** de comunicació i organització
 
 ### Avaluació Final
 - **Projecte complet** que demostra la integració dels 6 RA
-- **Presentació oral** avaluada amb [`rubrica presentacio.pdf`](assets/rubrica%20presentacio.pdf)
+- **Presentació oral** avaluada amb [`rubrica-presentacio.pdf`](avaluació/rubrica-presentacio.pdf)
 - **Documentació tècnica** i reflexió sobre l'aprenentatge
 
 ---
@@ -110,10 +110,10 @@ Cada sessió contribueix a l'avaluació final mitjançant:
 
 | Component | Pes | Instrument | RA Integrats |
 |-----------|-----|------------|--------------|
-| **Tasques de sessió** | 40% | `rubrica tasques.pdf` | RA1+RA2+RA3+RA4+RA5+RA6 |
-| **Activitat col·laborativa** | 20% | `rubrica activitat colaborativa.pdf` | RA1+RA2+RA3+RA4+RA5+RA6 |
-| **Presentació final** | 20% | `rubrica presentacio.pdf` | RA1+RA2+RA3+RA4+RA5+RA6 |
-| **Projecte final** | 20% | Avaluació holística | RA1+RA2+RA3+RA4+RA5+RA6 |
+| **Tasques de sessió** | 40% | `rubrica-tasques.pdf` | RA1+RA2+RA3+RA4+RA5+RA6 |
+| **Activitat col·laborativa** | 20% | `rubrica-activitat-colaborativa.pdf` | RA1+RA2+RA3+RA4+RA5+RA6 |
+| **Presentació final** | 20% | `rubrica-presentacio.pdf` | RA1+RA2+RA3+RA4+RA5+RA6 |
+| **Projecte final** | 20% | `rubrica-projecte` | RA1+RA2+RA3+RA4+RA5+RA6 |
 | **TOTAL** | **100%** | **Avaluació integrada** | **RA1+RA2+RA3+RA4+RA5+RA6** |
 
 ### Qualificació per RA (Transversal)

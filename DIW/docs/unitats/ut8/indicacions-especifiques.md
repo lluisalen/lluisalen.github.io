@@ -25,7 +25,7 @@
 Entrar al link [Github Classroom: UT8](https://classroom.github.com/a/-nxk2MD0)
 
 Al acceptar la solicitud seleccioneu quin alumne sou i vos creara el repositori amb el que anireu treballant
-![Exemple repositori alumne](exemple-repositori-github-classroom.jpeg)
+![Exemple repositori alumne](assets/exemple-repositori-github-classroom.jpeg)
 **Pas 1: Fork del Template**
 ```bash
 # Navegar a GitHub Classroom

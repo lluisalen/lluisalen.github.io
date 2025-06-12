@@ -80,7 +80,7 @@
 
 ### 3. Guies Escrites
 
-**Guia Completa**: [Manual del Projecte](./manual-projecte.md)
+**Guia Completa**: [Manual del Projecte](./index.md)
 - **Eina**: Markdown + MkDocs
 - **Finalitat**: Referència completa offline
 - **Contingut**: Tots els aspectes tècnics i metodològics
