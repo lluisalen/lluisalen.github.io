@@ -1,0 +1,2324 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../recursos-generats/">
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Eines Descobertes - Disseny d'Interfícies Web</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#eines-descobertes-i-recomanacions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Disseny d&#39;Interfícies Web" class="md-header__button md-logo" aria-label="Disseny d'Interfícies Web" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Disseny d'Interfícies Web
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Eines Descobertes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Disseny d&#39;Interfícies Web" class="md-nav__button md-logo" aria-label="Disseny d'Interfícies Web" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    Disseny d'Interfícies Web
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inici
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Unitats de Treball
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Unitats de Treball
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    UT8 - Portafolis Web
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            UT8 - Portafolis Web
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_2" id="__nav_2_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planificació i Organització
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planificació i Organització
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planificacio-sessions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planificació de Sessions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indicacions-especifiques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Indicacions per l'Alumnat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../desplegament-aws/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Desplegament AWS Academy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3" id="__nav_2_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Avaluació
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Avaluació
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../avaluacio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sistema d'Avaluació
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_4" id="__nav_2_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Recursos i Eines
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Recursos i Eines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recursos-generats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recursos Generats
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Eines Descobertes
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eines Descobertes
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#noves-eines-implementades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noves Eines Implementades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Noves Eines Implementades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0-git-i-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. Git i GitHub ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0. Git i GitHub ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#01-github-pages-material-for-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.1 GitHub Pages + Material for MkDocs ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0.1 GitHub Pages + Material for MkDocs ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.2 Markdown ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0.2 Markdown ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.3 Visual Studio Code ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0.3 Visual Studio Code ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-astro-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Astro Framework ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Astro Framework ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-tailwind-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Tailwind CSS ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Tailwind CSS ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-microsoft-planner" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Microsoft Planner ⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Microsoft Planner ⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-aws-academy-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. AWS Academy + Docker ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. AWS Academy + Docker ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-resend-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Resend API ⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Resend API ⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eines-testejades-i-descartades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eines Testejades i Descartades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Eines Testejades i Descartades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-gatsby" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Gatsby ⭐⭐⭐
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-bootstrap" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Bootstrap ⭐⭐
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-vercel" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Vercel ⭐⭐⭐⭐
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomanacions-per-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanacions per Categories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomanacions per Categories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-a-educacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎓 Per a Educació
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#per-a-produccio" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏢 Per a Producció
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparatives-detallades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparatives Detallades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparatives Detallades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frameworks-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frameworks CSS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plataformes-de-desplegament" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plataformes de Desplegament
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evolucio-tecnologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evolució Tecnològica
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evolució Tecnològica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tendencies-observades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tendències Observades
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prediccions-per-al-proper-curs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prediccions per al Proper Curs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consells-per-la-implementacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consells per la Implementació
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consells per la Implementació">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adoptio-gradual" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Adoptió Gradual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaluacio-deines" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Avaluació d'Eines
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criteris-de-seleccio" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Criteris de Selecció
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#noves-eines-implementades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noves Eines Implementades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Noves Eines Implementades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0-git-i-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. Git i GitHub ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0. Git i GitHub ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#01-github-pages-material-for-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.1 GitHub Pages + Material for MkDocs ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0.1 GitHub Pages + Material for MkDocs ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.2 Markdown ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0.2 Markdown ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.3 Visual Studio Code ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0.3 Visual Studio Code ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-astro-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Astro Framework ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Astro Framework ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-tailwind-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Tailwind CSS ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Tailwind CSS ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-microsoft-planner" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Microsoft Planner ⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Microsoft Planner ⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-aws-academy-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. AWS Academy + Docker ⭐⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. AWS Academy + Docker ⭐⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-resend-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Resend API ⭐⭐⭐⭐
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Resend API ⭐⭐⭐⭐">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantatges
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inconvenients
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomanacio_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eines-testejades-i-descartades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eines Testejades i Descartades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Eines Testejades i Descartades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-gatsby" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Gatsby ⭐⭐⭐
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-bootstrap" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Bootstrap ⭐⭐
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-vercel" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Vercel ⭐⭐⭐⭐
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomanacions-per-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomanacions per Categories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomanacions per Categories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-a-educacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎓 Per a Educació
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#per-a-produccio" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏢 Per a Producció
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparatives-detallades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparatives Detallades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparatives Detallades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frameworks-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frameworks CSS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plataformes-de-desplegament" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plataformes de Desplegament
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evolucio-tecnologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evolució Tecnològica
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evolució Tecnològica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tendencies-observades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tendències Observades
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prediccions-per-al-proper-curs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prediccions per al Proper Curs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consells-per-la-implementacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consells per la Implementació
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consells per la Implementació">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adoptio-gradual" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Adoptió Gradual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaluacio-deines" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Avaluació d'Eines
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criteris-de-seleccio" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Criteris de Selecció
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="eines-descobertes-i-recomanacions">Eines Descobertes i Recomanacions</h1>
+<h2 id="noves-eines-implementades">Noves Eines Implementades</h2>
+<h3 id="0-git-i-github">0. <strong>Git i GitHub</strong> ⭐⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Fonamental en tot el projecte
+<strong>Finalitat</strong>: Control de versions i allotjament de tot el codi i recursos</p>
+<h4 id="avantatges">Avantatges</h4>
+<ul>
+<li>✅ <strong>Històric complet</strong>: Seguiment de tots els canvis</li>
+<li>✅ <strong>Col·laboració</strong>: Treball en equip i revisió de codi</li>
+<li>✅ <strong>Integració amb altres eines</strong>: Automatitzacions, CI/CD</li>
+<li>✅ <strong>Repositoris públics/privats</strong>: Flexibilitat segons necessitats</li>
+<li>✅ <strong>Gratuït per educació</strong>: GitHub Education</li>
+</ul>
+<h4 id="inconvenients">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Corba d'aprenentatge</strong>: Conceptes inicials (branch, merge, rebase)</li>
+<li>❌ <strong>Conflictes</strong>: Possibles en treball col·laboratiu</li>
+</ul>
+<h4 id="recomanacio">Recomanació</h4>
+<p><strong>🎯 IMPRESCINDIBLE</strong> per a qualsevol projecte de desenvolupament web i per a l'aprenentatge professional.</p>
+<hr />
+<h3 id="01-github-pages-material-for-mkdocs">0.1 <strong>GitHub Pages + Material for MkDocs</strong> ⭐⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Adoptat per publicar el treball i recursos en format web
+<strong>Finalitat</strong>: Publicació de documentació i recursos de manera senzilla i gratuïta
+<strong><a href="https://squidfunk.github.io/mkdocs-material/">Documentació</a></strong></p>
+<h4 id="avantatges_1">Avantatges</h4>
+<ul>
+<li>✅ <strong>Desplegament automàtic</strong>: Cada push publica la web</li>
+<li>✅ <strong>Integració amb GitHub</strong>: Flux de treball unificat</li>
+<li>✅ <strong>Material for MkDocs</strong>: Disseny modern i navegació clara sols amb markdown y yaml</li>
+<li>✅ <strong>Cost zero</strong>: Hosting gratuït</li>
+<li>✅ <strong>Accés universal</strong>: Web pública per a tot l'alumnat</li>
+</ul>
+<h4 id="inconvenients_1">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Limitacions tècniques</strong>: Només sites estàtics</li>
+<li>❌ <strong>Configuració inicial</strong>: Pot requerir aprenentatge de YAML i temes</li>
+</ul>
+<h4 id="recomanacio_1">Recomanació</h4>
+<p><strong>🎯 ALTAMENT RECOMANAT</strong> per publicar documentació, apunts i recursos de classe.</p>
+<hr />
+<h3 id="02-markdown">0.2 <strong>Markdown</strong> ⭐⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Llenguatges base per a tot el contingut
+<strong>Finalitat</strong>: Creació i format de teoria, presentacions i rúbriques</p>
+<h4 id="avantatges_2">Avantatges</h4>
+<ul>
+<li>✅ <strong>Simplicitat</strong>: Per escriure ràpid i net</li>
+<li>✅ <strong>Portabilitat</strong>: Fàcil de migrar i reutilitzar</li>
+<li>✅ <strong>Compatibilitat</strong>: Suportat per la majoria d'eines i plataformes</li>
+</ul>
+<h4 id="inconvenients_2">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Limitacions visuals</strong>: Markdown bàsic pot ser simple</li>
+</ul>
+<h4 id="recomanacio_2">Recomanació</h4>
+<p><strong>🎯 IMPRESCINDIBLE</strong> per a la creació de materials didàctics i recursos digitals moderns.</p>
+<hr />
+<h3 id="03-visual-studio-code">0.3 <strong>Visual Studio Code</strong> ⭐⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Eina principal per a l'edició de codi i contingut
+<strong>Finalitat</strong>: Escriptura, format i control de versions local</p>
+<h4 id="avantatges_3">Avantatges</h4>
+<ul>
+<li>✅ <strong>Extensions potents</strong>: Suport per Markdown, Git,...</li>
+<li>✅ <strong>Integració Git</strong>: Control de versions integrat</li>
+<li>✅ <strong>Personalització</strong>: Temes, snippets, configuració avançada</li>
+<li>✅ <strong>Gratuït i multiplataforma</strong>: Windows, Mac, Linux</li>
+<li>✅ <strong>Debugging i Live Preview</strong>: Millora la productivitat</li>
+</ul>
+<h4 id="inconvenients_3">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Potència</strong>: Pot consumir més recursos en equips antics</li>
+<li>❌ <strong>Corba d'aprenentatge</strong>: Moltes opcions i extensions</li>
+</ul>
+<h4 id="recomanacio_3">Recomanació</h4>
+<p><strong>🎯 ALTAMENT RECOMANAT</strong> per a tot l'alumnat i docents en desenvolupament web.</p>
+<h3 id="1-astro-framework">1. <strong>Astro Framework</strong> ⭐⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Aquest curs acadèmic 2024-25
+<strong>Finalitat</strong>: Generador de sites estàtics modern</p>
+<h4 id="avantatges_4">Avantatges</h4>
+<ul>
+<li>✅ <strong>Performance excepcional</strong>: Sites ultra-ràpids per defecte</li>
+<li>✅ <strong>Facilitat d'aprenentatge</strong>: Sintaxi familiar HTML/CSS/JS</li>
+<li>✅ <strong>Flexibilitat</strong>: Integració amb React, Vue, Svelte opcionals</li>
+<li>✅ <strong>SEO built-in</strong>: Optimització automàtica per cercadors</li>
+<li>✅ <strong>Developer Experience</strong>: Hot reload, TypeScript, debugging</li>
+</ul>
+<h4 id="inconvenients_4">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Comunitat petita</strong>: Menys recursos que Gatsby/Next.js</li>
+<li>❌ <strong>Ecosistema jove</strong>: Alguns plugins encara en desenvolupament</li>
+<li>❌ <strong>Corba d'aprenentatge</strong>: Conceptes d'hidratació selectiva</li>
+</ul>
+<h4 id="recomanacio_4">Recomanació</h4>
+<p><strong>🎯 ALTAMENT RECOMANAT</strong> per projectes de portafolis i sites estàtics. Ideal per a l'ensenyament per la seva simplicitat i resultats impressionants.</p>
+<hr />
+<h3 id="2-tailwind-css">2. <strong>Tailwind CSS</strong> ⭐⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Adoptat aquest curs després de comparar amb altres frameworks
+<strong>Finalitat</strong>: Framework CSS utility-first</p>
+<h4 id="avantatges_5">Avantatges</h4>
+<ul>
+<li>✅ <strong>Productivitat</strong>: Desenvolupament molt més ràpid</li>
+<li>✅ <strong>Consistència</strong>: Design system coherent automàticament</li>
+<li>✅ <strong>Responsive</strong>: Mobile-first approach natural</li>
+<li>✅ <strong>Purge CSS</strong>: Bundles ultra-optimitzats en producció</li>
+<li>✅ <strong>Customització</strong>: Extensió senzilla amb custom properties</li>
+</ul>
+<h4 id="inconvenients_5">Inconvenients</h4>
+<ul>
+<li>❌ <strong>HTML "brut"</strong>: Classes nombroses en el markup</li>
+<li>❌ <strong>Corba inicial</strong>: Memoritzar nomenclatura de classes</li>
+<li>❌ <strong>Dependència</strong>: Difícil de migrar un cop adoptat</li>
+</ul>
+<h4 id="recomanacio_5">Recomanació</h4>
+<p><strong>🎯 ALTAMENT RECOMANAT</strong> especialment per a principiants. Accelera l'aprenentatge de CSS i conceptes responsives.</p>
+<hr />
+<h3 id="3-microsoft-planner">3. <strong>Microsoft Planner</strong> ⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Adoptat per gestió de projectes a l'aula
+<strong>Finalitat</strong>: Organització de tasques i seguiment d'alumnat</p>
+<h4 id="avantatges_6">Avantatges</h4>
+<ul>
+<li>✅ <strong>Integració Office 365</strong>: Ecosistema educatiu existent</li>
+<li>✅ <strong>Visual</strong>: Kanban boards intuïtius</li>
+<li>✅ <strong>Col·laboració</strong>: Treball en equip efectiu</li>
+<li>✅ <strong>Seguiment</strong>: Métriques de progrés</li>
+<li>✅ <strong>Gratuït</strong>: Inclòs en llicències educatives</li>
+</ul>
+<h4 id="inconvenients_6">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Funcionalitats limitades</strong>: Menys potent que Jira/Trello</li>
+<li>❌ <strong>Reporting</strong>: Analítica bàsica</li>
+<li>❌ <strong>Automatització</strong>: Pocs workflows automàtics</li>
+</ul>
+<h4 id="recomanacio_6">Recomanació</h4>
+<p><strong>🎯 RECOMANAT</strong> per projectes educatius. Balanç adequat entre funcionalitat i simplicitat.</p>
+<hr />
+<h3 id="4-aws-academy-docker">4. <strong>AWS Academy + Docker</strong> ⭐⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Adoptat com a alternativa professional a Netlify
+<strong>Finalitat</strong>: Desplegament cloud real amb contenidors</p>
+<h4 id="avantatges_7">Avantatges</h4>
+<ul>
+<li>✅ <strong>Experiència professional</strong>: Tecnologies usades a la indústria</li>
+<li>✅ <strong>Skills transferibles</strong>: Docker, ECS, Load Balancers, CloudWatch</li>
+<li>✅ <strong>Arquitectura escalable</strong>: Preparació per sistemes distribuïts</li>
+<li>✅ <strong>Crèdits educatius</strong>: Accés gratuït via AWS Academy</li>
+<li>✅ <strong>Portafolis empresarial</strong>: Experiència valorada pels reclutadors</li>
+</ul>
+<h4 id="inconvenients_7">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Complexitat inicial</strong>: Corba d'aprenentatge més pronunciada</li>
+<li>❌ <strong>Setup time</strong>: Més temps de configuració inicial</li>
+<li>❌ <strong>Troubleshooting</strong>: Més punts de fallada possibles</li>
+</ul>
+<h4 id="recomanacio_7">Recomanació</h4>
+<p><strong>🎯 ALTAMENT RECOMANAT</strong> per l'experiència professional que ofereix. L'esforç extra es compensa amb skills reals de DevOps i Cloud Engineering.</p>
+<hr />
+<h3 id="5-resend-api">5. <strong>Resend API</strong> ⭐⭐⭐⭐</h3>
+<p><strong>Descoberta</strong>: Alternativa moderna a SendGrid/Mailgun
+<strong>Finalitat</strong>: Enviament de correus des de formularis web</p>
+<h4 id="avantatges_8">Avantatges</h4>
+<ul>
+<li>✅ <strong>Developer Experience</strong>: API molt neta i documentada</li>
+<li>✅ <strong>Templates</strong>: Sistema de plantilles modern</li>
+<li>✅ <strong>Deliverability</strong>: Bones taxes de lliurament</li>
+<li>✅ <strong>Pricing</strong>: Tier gratuït generós</li>
+<li>✅ <strong>React Email</strong>: Integració amb components React</li>
+</ul>
+<h4 id="inconvenients_8">Inconvenients</h4>
+<ul>
+<li>❌ <strong>Servei jove</strong>: Menys establert que competidors</li>
+<li>❌ <strong>Funcionalitats</strong>: Menys features avançades</li>
+<li>❌ <strong>Suport</strong>: Comunitat més petita</li>
+</ul>
+<h4 id="recomanacio_8">Recomanació</h4>
+<p><strong>🎯 RECOMANAT</strong> com a alternativa fresca a SendGrid. Ideal per a projectes educatius pel seu tier gratuït.</p>
+<hr />
+<h2 id="eines-testejades-i-descartades">Eines Testejades i Descartades</h2>
+<h3 id="1-gatsby">1. <strong>Gatsby</strong> ⭐⭐⭐</h3>
+<p><strong>Motiu del descart</strong>: Complexitat excessiva per al nivell educatiu
+- Configuration hell amb plugins
+- GraphQL obligatori afegeix complexitat
+- Build times més lents
+- Corba d'aprenentatge més pronunciada</p>
+<h3 id="2-bootstrap">2. <strong>Bootstrap</strong> ⭐⭐</h3>
+<p><strong>Motiu del descart</strong>: Menys flexible que Tailwind
+- Design massa genèric
+- Customització complexa
+- Bundles més grans
+- Menys control granular</p>
+<h3 id="3-vercel">3. <strong>Vercel</strong> ⭐⭐⭐⭐</h3>
+<p><strong>Motiu del descart</strong>: Límits del tier gratuït
+- Funcionalitats avançades de pagament
+- Límits de bandwidth restrictius
+- AWS Academy ofereix més experiència profesional</p>
+<h2 id="recomanacions-per-categories">Recomanacions per Categories</h2>
+<h3 id="per-a-educacio">🎓 <strong>Per a Educació</strong></h3>
+<p><strong>Essencials:</strong>
+- Astro + Tailwind (combo perfecte)
+- GitHub Classroom
+- AWS Academy + Docker (desplegament)
+- Microsoft Planner (gestió)</p>
+<p><strong>Opcionals:</strong>
+- Figma (disseny)
+- Lighthouse (auditoria)</p>
+<h3 id="per-a-produccio">🏢 <strong>Per a Producció</strong></h3>
+<p><strong>Recomanats:</strong>
+- Next.js (apps complexes)
+- Tailwind CSS (estils)
+- Vercel (desplegament avançat)
+- Resend (email)</p>
+<p><strong>Evitar:</strong>
+- Frameworks massa nous (risc)
+- Solucions custom sense suport
+- Eines amb vendor lock-in</p>
+<h2 id="comparatives-detallades">Comparatives Detallades</h2>
+<h3 id="frameworks-css">Frameworks CSS</h3>
+<table>
+<thead>
+<tr>
+<th>Eina</th>
+<th>Aprenentatge</th>
+<th>Flexibilitat</th>
+<th>Performance</th>
+<th>Suport</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tailwind</strong></td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Bootstrap</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Bulma</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Foundation</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+</tbody>
+</table>
+<h3 id="plataformes-de-desplegament">Plataformes de Desplegament</h3>
+<table>
+<thead>
+<tr>
+<th>Plataforma</th>
+<th>Facilitat</th>
+<th>Funcionalitats</th>
+<th>Cost</th>
+<th>Educació</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AWS Academy</strong></td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Vercel</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td>GitHub Pages</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Firebase</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+</tbody>
+</table>
+<h2 id="evolucio-tecnologica">Evolució Tecnològica</h2>
+<h3 id="tendencies-observades">Tendències Observades</h3>
+<ol>
+<li><strong>Shift cap a frameworks estàtics</strong>: Millor performance</li>
+<li><strong>Utility-first CSS</strong>: Més productivitat</li>
+<li><strong>API-first services</strong>: Menys servidor propi</li>
+<li><strong>Developer Experience</strong>: Prioritat en eines</li>
+<li><strong>Sustainability</strong>: Webs més eficients</li>
+</ol>
+<h3 id="prediccions-per-al-proper-curs">Prediccions per al Proper Curs</h3>
+<ul>
+<li><strong>Astro 4.0</strong>: Més funcionalitats</li>
+<li><strong>Tailwind UI</strong>: Més components</li>
+<li><strong>Edge computing</strong>: Més adopció</li>
+<li><strong>AI-assisted coding</strong>: Copilot, etc.</li>
+</ul>
+<h2 id="consells-per-la-implementacio">Consells per la Implementació</h2>
+<h3 id="adoptio-gradual">🚀 <strong>Adoptió Gradual</strong></h3>
+<ol>
+<li>Començar amb eines conegudes</li>
+<li>Introduir una novetat per projecte</li>
+<li>Formar-se contínuament</li>
+<li>Compartir coneixements amb l'equip</li>
+</ol>
+<h3 id="avaluacio-deines">📊 <strong>Avaluació d'Eines</strong></h3>
+<ul>
+<li>Mira la documentació</li>
+<li>Prova amb projectes petits</li>
+<li>Considera la corba d'aprenentatge</li>
+<li>Evalua el suport a llarg termini</li>
+</ul>
+<h3 id="criteris-de-seleccio">🎯 <strong>Criteris de Selecció</strong></h3>
+<ul>
+<li><strong>Adequació al nivell</strong>: Ni massa simple ni massa complex</li>
+<li><strong>Comunitat activa</strong>: Suport i recursos</li>
+<li><strong>Documentació</strong>: Qualitat i actualització</li>
+<li><strong>Transferibilitat</strong>: Aplicació professional </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../recursos-generats/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Recursos Generats">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Recursos Generats
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.top", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
