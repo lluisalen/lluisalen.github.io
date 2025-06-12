@@ -24,6 +24,7 @@
 
 ### Preparació Prèvia (Flipped Classroom)
 **Tasques per casa (30 min):**
+
 - 📺 Vídeo: "Introducció a Astro" (15 min)
 - 📺 Vídeo: "Portafolis professionals - Inspiració" (15 min)
 - 📖 Lectura: "Principis de disseny visual"
@@ -31,31 +32,52 @@
 ### Temporització de la Sessió
 
 **Introducció i Motivació**
+
 - Presentació del projecte final
 - Exemples de portafolis professionals
 - Explicació de la metodologia ABP
 - Formació d'equips per QA
 
 **Setup Tècnic**
+
 - Instal·lació Node.js i configuració
-- Creació del projecte Astro
-- Configuració Tailwind CSS
+- Creació del projecte Astro i configuració TailwindCSS
+```
+npm create astro@latest
+
+npm install -D tailwindcss
+
+npx tailwindcss init
+```
+
+Verifica que el projecte funciona amb `npm run dev`
+
 - Setup GitHub i primer commit
+```
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <URL_del_repositori>
+git push -u origin main
+```
 - Configuració VS Code (extensions)
 
 **Planificació Visual**
+
 - Introducció a wireframes
 - Eina Figma/Excalidraw
 - Creació wireframes mobile-first
 - Definició de seccions principals
 
 **Tasques i Seguiment**
+
 - Creació tasques Microsoft Planner
 - Assignació de parelles QA
 - Explicació del sistema d'avaluació
 - Dubtes i resolucions
 
 ### Entregables de la Sessió
+
 - ✅ Repositori GitHub configurat
 - ✅ Projecte Astro funcionant localment
 - ✅ Wireframes bàsics (mobile + desktop)
@@ -68,34 +90,40 @@
 
 ### Preparació Prèvia
 **Tasques per casa (20 min):**
+
 - 📺 Vídeo: "Design Systems modernos" (10 min)
 - 🎨 Inspiració: Dribbble/Behance (10 min)
 
 ### Temporització de la Sessió
 
 **Revisió i Dubtes**
+
 - Check-in dels wireframes
 - Resolució de problemes tècnics
 - Feedback ràpid entre parelles
 
 **Creació de la Guia d'Estil**
+
 - Selecció de paleta de colors
 - Elecció de tipografies web
 - Definició d'espaciats i mides
 - Creació de components base
 
 **Implementació Tècnica**
+
 - Configuració CSS custom properties
 - Variables Tailwind personalitzades
 - Creació de components reutilitzables
 - Testing en diferents dispositius
 
 **Documentació i Commit**
+
 - Documentació de la guia d'estil
 - Commit amb bones pràctiques
 - Actualització tasques Planner
 
 ### Entregables de la Sessió
+
 - ✅ Guia d'estil documentada
 - ✅ Variables CSS/Tailwind configurades
 - ✅ Components base implementats
@@ -108,17 +136,20 @@
 
 ### Preparació Prèvia
 **Tasques per casa (25 min):**
+
 - 📺 Vídeo: "HTML semàntic avançat" (15 min)
 - 📖 Lectura: "WCAG 2.1 - Navegació" (10 min)
 
 ### Temporització de la Sessió
 
 **Warm-up**
+
 - Revisió de commits de la setmana
 - Sharing de guies d'estil entre equips
 - Identificació de millors pràctiques
 
 **Desenvolupament del Header**
+
 - Estructura HTML semàntica
 - Navegació principal accessible
 - Logo i branding
@@ -126,18 +157,21 @@
 - Testing amb lector de pantalla
 
 **Desenvolupament del Footer**
+
 - Informació de contacte
 - Enllaços a xarxes socials
 - Drets d'autor i legal
 - Accessibilitat i focus management
 
 **Testing i Validació**
+
 - Validació HTML (W3C)
 - Testing amb Lighthouse
 - Proves en diferents navegadors
 - Commit i documentació
 
 ### Entregables de la Sessió
+
 - ✅ Header completament funcional
 - ✅ Footer amb informació completa
 - ✅ Navegació accessible (teclat + lector)
@@ -150,36 +184,42 @@
 
 ### Preparació Prèvia
 **Tasques per casa (30 min):**
+
 - 📺 Vídeo: "Optimització d'imatges web" (15 min)
 - 📷 Preparació de contingut personal (15 min)
 
 ### Temporització de la Sessió
 
 **Estratègia de Contingut**
+
 - Definició del missatge principal
 - Estructuració de la presentació personal
 - Selecció i optimització d'imatges
 - Call-to-actions efectius
 
 **Hero Section**
+
 - Disseny visual impactant
 - Integració de fotografia personal
 - Animacions subtils amb CSS
 - Responsive design mobile-first
 
 **Seccions Complementàries**
+
 - About Me / Sobre Mi
 - Habilitats i competències
 - Experiència destacada
 - Integració amb la navegació
 
 **Optimització i Testing**
+
 - Optimització d'imatges (WebP)
 - Lazy loading implementation
 - Performance testing
 - Accessibilitat i contrast
 
 ### Entregables de la Sessió
+
 - ✅ Homepage completa i funcional
 - ✅ Hero section impactant
 - ✅ Contingut personal optimitzat
@@ -192,36 +232,42 @@
 
 ### Preparació Prèvia
 **Tasques per casa (45 min):**
+
 - 📂 Preparació de projectes anteriors (30 min)
 - 📺 Vídeo: "Formats multimèdia web" (15 min)
 
 ### Temporització de la Sessió
 
 **Curació de Projectes**
+
 - Selecció dels millors projectes
 - Creació de descriptions atractives
 - Captura de screenshots de qualitat
 - Organització del contingut
 
 **Implementació de la Galeria**
+
 - Grid layout responsiu
 - Cards interactives
 - Filtres per categoria/tecnologia
 - Modal o linking a projectes
 
 **Integració Multimèdia**
+
 - Vídeos demonstratius
 - Imatges optimitzades
 - Respecte de drets d'autor
 - Formats alternatius (WebP, AVIF)
 
 **UX i Interactivitat**
+
 - Micro-interaccions
 - Hover effects
 - Animacions d'entrada
 - Testing d'usabilitat
 
 ### Entregables de la Sessió
+
 - ✅ Galeria de projectes completa
 - ✅ Contingut multimèdia optimitzat
 - ✅ Interaccions fluides
@@ -234,11 +280,13 @@
 
 ### Preparació i Recursos
 **Materials disponibles:**
+
 - 📺 Vídeo: "Desplegament complet amb AWS Academy i Docker" (25 min)
 - 📖 Guia escrita: "Containerització i ECS deployment"
 
 ### Objectius de la Sessió
 **Tasques principals:**
+
 - Creació d'imatge Docker del projecte Astro
 - Configuració AWS Academy i ECR
 - Desplegament amb ECS Fargate
@@ -248,18 +296,21 @@
 ### Temporització Suggerida
 
 **Containerització**
+
 - Creació del Dockerfile optimitzat
 - Configuració Nginx per Astro
 - Build i test local de la imatge Docker
 - Preparació scripts d'automatització
 
 **AWS Setup**
+
 - Accés a AWS Academy Lab
 - Configuració AWS CLI i credencials
 - Creació repositori ECR
 - Push de la primera imatge
 
 **Desplegament ECS**
+
 - Configuració ECS Cluster i Task Definition
 - Desplegament del servei amb Fargate
 - Configuració Load Balancer
@@ -269,6 +320,7 @@
 - **Fòrum**: Dubtes asíncrons
 
 ### Entregables de la Sessió
+
 - ✅ Imatge Docker creada i funcionant
 - ✅ Repositori ECR configurat
 - ✅ Servei ECS desplegat amb Load Balancer
@@ -297,18 +349,21 @@
 ## Adaptacions per Sessions
 
 ### Per a Alumnat amb NESE
+
 - **Temps addicional**: +30 min per sessió si és necessari
 - **Suport individualitzat**: Tutor assignat
 - **Materials simplificats**: Versions adaptades dels vídeos
 - **Avaluació alternativa**: Checkpoints personalitzats
 
 ### Modalitat Híbrida
+
 - **Sessions gravades**: Disponibles per a consulta
 - **Materials asíncrons**: Tots els recursos accessibles 24/7
 - **Suport virtual**: Moodle + tutories Zoom
 - **Flexibilitat de terminis**: Calendari adaptat
 
 ## Mètriques de Seguiment
+
 - **Assistència**: Registre per sessió
 - **Participació**: Activitat a classe i Moodle
 - **Progrés**: Commits i tasques completades

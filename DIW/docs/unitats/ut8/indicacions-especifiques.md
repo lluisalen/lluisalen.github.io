@@ -5,12 +5,14 @@
 ### 1. Preparació de l'Entorn de Desenvolupament
 
 **Requisits del Sistema:**
+
 - Node.js 18+ instal·lat
 - Visual Studio Code
 - Git configurat amb el vostre nom i email
 - Compte GitHub actiu
 
 **Extensions VS Code Recomanades:**
+
 ```
 - Astro
 - Tailwind CSS IntelliSense
@@ -42,6 +44,7 @@ npm run dev
 ```
 
 **Pas 3: Verificació**
+
 - Obrir http://localhost:3000
 - Verificar que el projecte carrega correctament
 
@@ -102,6 +105,7 @@ src/
 
 ### Secció Hero
 **Contingut obligatori:**
+
 - Nom complet
 - Títol professional (ex: "Desenvolupador Web Junior")
 - Descripció breu (màx. 50 paraules)
@@ -119,6 +123,7 @@ Creo experiències web accessibles i amb un rendiment excel·lent.
 
 ### Secció Projectes
 **Mínim 3 projectes amb:**
+
 - Títol del projecte
 - Descripció (màx. 100 paraules)
 - Tecnologies utilitzades
@@ -128,6 +133,7 @@ Creo experiències web accessibles i amb un rendiment excel·lent.
 
 ### Secció About
 **Contingut suggerit:**
+
 - Història personal i motivació
 - Formació i experiència
 - Habilitats tècniques i soft skills
@@ -136,6 +142,7 @@ Creo experiències web accessibles i amb un rendiment excel·lent.
 
 ### Formulari de Contacte
 **Camps obligatoris:**
+
 - Nom (required)
 - Email (required, validation)
 - Missatge (required, min 20 chars)
@@ -165,6 +172,7 @@ style: improve button hover animations
 ```
 
 **Freqüència mínima:**
+
 - Mínim 3 commits per sessió
 - 1 commit per funcionalitat implementada
 - Commits descriptius i atòmics
@@ -197,16 +205,19 @@ style: improve button hover animations
 
 ### Format de Lliurament
 **GitHub:**
+
 - Codi font complet
 - README actualitzat
 - Històric de commits net
 
 **AWS Academy:**
+
 - Contenidor desplegat a ECS
 - Load Balancer configurat
 - Monitorització CloudWatch activa
 
 **Documentació:**
+
 - Reflexió personal (500 paraules)
 - Justificació de decisions de disseny
 - Dificultats trobades i solucions

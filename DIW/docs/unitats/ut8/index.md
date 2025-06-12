@@ -2,9 +2,10 @@
 
 ## Descripció
 
-Projecte final del mòdul **Disseny d'Interfícies Web**, on l'alumnat desenvolupa un portafolis web professional. S'utilitzen tecnologies modernes com **Astro**, **TailwindCSS**, **HTML** i **CSS**, tot aplicant criteris d'accessibilitat, usabilitat i bones pràctiques. L'activitat integra control de versions amb **GitHub**, desplegament a **AWS Academy** amb contenidors Docker, i validació d'accessibilitat i rendiment amb eines com **Lighthouse**.
+Projecte final del mòdul **Disseny d'Interfícies Web**, on l'alumnat desenvolupa un portafolis web professional. S'utilitzen tecnologies modernes com **Astro**, **TailwindCSS**, **HTML** i **CSS**, tot aplicant criteris d'accessibilitat, usabilitat i bones pràctiques. L'activitat integra control de versions amb **GitHub**, desplegament a **AWS Academy** amb contenidors Docker, i validació d'accessibilitat i rendiment amb eines com **Lighthouse**. [Descarregar PDF Unitat de Treball](assets/ut8.pdf)
 
-## 🎥 [Vídeo de presentació del projecte](https://drive.google.com/file/d/13qY_CHwv5PeqBXG9TbO_L2TABXfR81ML/view?usp=drive_link)
+## 🎥 [Vídeo explicant el contingut desenvolupat]()
+## 🎥 [Vídeo de presentació del projecte](https://youtu.be/zDRAUWkiAdM)
 
 ## Justificació
 
@@ -12,13 +13,14 @@ Aquesta unitat consolida tots els coneixements adquirits al llarg del curs, perm
 
 ## Context
 
-* **Cicle Formatiu**: Desenvolupament d'Aplicacions Web
-* **Curs**: 2n de DAW
-* **Grup**: A
-* **Mòdul**: Disseny d'Interfícies Web (DIW)
-* **Càrrega horària**: 36 hores (12 sessions de 3h)
-* **Temporalització**: 2n trimestre (6 setmanes, 6h/setmana)
-* **Pes avaluatiu**: 25%
+| Característica | Detall |
+|---------------|---------|
+| Cicle Formatiu | Desenvolupament d'Aplicacions Web |
+| Curs | 2n de DAW |
+| Mòdul | Disseny d'Interfícies Web (DIW) |
+| Càrrega horària | 36 hores (12 sessions de 3h) |
+| Temporalització | 2n trimestre (6 setmanes, 6h/setmana) |
+| Pes avaluatiu | 25% |
 
 ## Documentació Completa
 
@@ -134,15 +136,6 @@ En cas que es vullga gastar Moodle per a gestionar les tasques del curs, es pot 
 * **Feedback entre iguals (QA)** i treball col·laboratiu
 * **Sessions de revisió crítica i ajustos finals**
 
-## Avaluació
-
-* Rúbriques d'avaluació per funcionalitat, disseny i accessibilitat
-* Coavaluació entre iguals estructurada
-* Autoavaluació reflexiva final
-* Registres de commits i tasques en Microsoft Planner
-
-**📊 [Veure Sistema d'Avaluació Complet](avaluacio.md)**
-
 ## Seqüència
 
 1. Presentació i configuració tècnica (Astro, Tailwind, GitHub)
@@ -173,9 +166,3 @@ Aquestes adaptacions podran incloure:
 
 Les adaptacions es concretaran de manera individual, tenint en compte els informes psicopedagògics i en coordinació amb el departament d'orientació.
 
----
-
-## Enllaços de Descàrrega
-
-* **[Descarregar PDF Original](assets/ut8.pdf)**
-* **[Vore Tots els Materials](recursos-generats.md)**
