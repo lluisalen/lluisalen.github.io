@@ -4,7 +4,7 @@
 
 Projecte final del mòdul **Disseny d'Interfícies Web**, on l'alumnat desenvolupa un portafolis web professional. S'utilitzen tecnologies modernes com **Astro**, **TailwindCSS**, **HTML** i **CSS**, tot aplicant criteris d'accessibilitat, usabilitat i bones pràctiques. L'activitat integra control de versions amb **GitHub**, desplegament a **AWS Academy** amb contenidors Docker, i validació d'accessibilitat i rendiment amb eines com **Lighthouse**. [Descarregar PDF Unitat de Treball](assets/ut8.pdf)
 
-## 🎥 [Vídeo explicant el contingut desenvolupat]()
+## 🎥 [Vídeo explicant el contingut desenvolupat](https://youtu.be/GXX7ILwUUt8)
 ## 🎥 [Vídeo de presentació del projecte](https://youtu.be/zDRAUWkiAdM)
 ## 🎬 [Canva de presentació del projecte](https://www.canva.com/design/DAGdsvvGZqU/1-vbsQxQ5QyePlF1tuFubw/edit?utm_content=DAGdsvvGZqU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
