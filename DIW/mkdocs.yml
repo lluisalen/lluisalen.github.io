@@ -3,7 +3,17 @@ site_name: Disseny d'Interfícies Web
 nav:
   - Inici: index.md
   - Unitats de Treball:
-    - unitats/ut8.md
+    - UT8 - Portafolis Web:
+      - Introducció i Context: unitats/ut8/index.md
+      - Planificació i Organització:
+        - Planificació de Sessions: unitats/ut8/planificacio-sessions.md
+        - Indicacions per l'Alumnat: unitats/ut8/indicacions-especifiques.md
+        - Desplegament AWS Academy: unitats/ut8/desplegament-aws.md
+      - Avaluació:
+        - Sistema d'Avaluació: unitats/ut8/avaluacio.md
+      - Recursos i Eines:
+        - Recursos Generats: unitats/ut8/recursos-generats.md
+        - Eines Descobertes: unitats/ut8/eines-descobertes.md
 
 theme:
   name: material
