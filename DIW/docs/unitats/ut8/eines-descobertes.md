@@ -78,6 +78,25 @@
 #### Recomanació
 **🎯 ALTAMENT RECOMANAT** per a tot l'alumnat i docents en desenvolupament web.
 
+### 0.4 **GitHub Classroom** ⭐⭐⭐⭐⭐
+**Descoberta**: Implementat per gestionar tasques i projectes
+**Finalitat**: Gestió automatitzada d'assignacions i repositoris per a l'alumnat
+
+#### Avantatges
+- ✅ **Automatització**: Creació automàtica de repositoris per a cada alumne
+- ✅ **Organització**: Gestió eficient de múltiples projectes i grups
+- ✅ **Avaluació**: Facilita el seguiment i la revisió del treball
+- ✅ **Integració amb GitHub**: Aprofita totes les funcionalitats de Git
+- ✅ **Gratuït per educació**: Part de GitHub Education
+
+#### Inconvenients
+- ❌ **Configuració inicial**: Requereix temps per configurar assignacions
+- ❌ **Dependència de GitHub**: Necessita comptes d'usuari per a tot l'alumnat
+- ❌ **Connexió a Internet**: Requereix accés constant a la xarxa
+
+#### Recomanació
+**🎯 IMPRESCINDIBLE** per a la gestió eficient de projectes i tasques en l'entorn educatiu.
+
 ### 1. **Astro Framework** ⭐⭐⭐⭐⭐
 **Descoberta**: Aquest curs acadèmic 2024-25
 **Finalitat**: Generador de sites estàtics modern
@@ -266,23 +285,3 @@
 - **Tailwind UI**: Més components
 - **Edge computing**: Més adopció
 - **AI-assisted coding**: Copilot, etc.
-
-## Consells per la Implementació
-
-### 🚀 **Adoptió Gradual**
-1. Començar amb eines conegudes
-2. Introduir una novetat per projecte
-3. Formar-se contínuament
-4. Compartir coneixements amb l'equip
-
-### 📊 **Avaluació d'Eines**
-- Mira la documentació
-- Prova amb projectes petits
-- Considera la corba d'aprenentatge
-- Evalua el suport a llarg termini
-
-### 🎯 **Criteris de Selecció**
-- **Adequació al nivell**: Ni massa simple ni massa complex
-- **Comunitat activa**: Suport i recursos
-- **Documentació**: Qualitat i actualització
-- **Transferibilitat**: Aplicació professional 
